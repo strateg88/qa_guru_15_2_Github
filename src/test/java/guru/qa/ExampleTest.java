@@ -28,4 +28,8 @@ public class ExampleTest {
     void exampleTest7() {
         Assertions.assertFalse(new Random().nextInt() > 6);
     }
+    @Test
+    void exampleTest8() {
+        Assertions.assertFalse(new Random().nextInt() > 6);
+    }
 }
