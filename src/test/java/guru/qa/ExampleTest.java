@@ -9,4 +9,8 @@ public class ExampleTest {
     void exampleTest() {
         Assertions.assertFalse( 2 < 1);
     }
+    @Test
+    void exampleTest1(){
+        Assertions.assertTrue(2 == 2);
+    }
 }
