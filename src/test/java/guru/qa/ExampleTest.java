@@ -16,4 +16,16 @@ public class ExampleTest {
     void exampleTest4() {
         Assertions.assertFalse(new Random().nextInt() > 6);
     }
+    @Test
+    void exampleTest5() {
+        Assertions.assertFalse(new Random().nextInt() > 6);
+    }
+    @Test
+    void exampleTest6() {
+        Assertions.assertFalse(new Random().nextInt() > 6);
+    }
+    @Test
+    void exampleTest7() {
+        Assertions.assertFalse(new Random().nextInt() > 6);
+    }
 }
