@@ -12,4 +12,8 @@ public class ExampleTest {
     void exampleTest() {
         Assertions.assertFalse(new Random().nextInt() > 6);
     }
+    @Test
+    void exampleTest4() {
+        Assertions.assertFalse(new Random().nextInt() > 6);
+    }
 }
